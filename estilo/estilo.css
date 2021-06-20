@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+/*variáveis em CSS*/
+:root {
+    --cor0: #45C6ED;
+    --cor1: #f1fcf6;
+    --cor2: #62B7D9;
+    --cor3: #3F6473;
+    --cor4: #e5f6f7;
+    --cor5: #3097BF;
+
+    --fonte-padrao: 'Nunito Sans', Arial, Helvetica, sans-serif;
+
+    --fonte-comum: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: var(--fonte-padrao);
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor4);
+
+}
+header {
+    background-color: var(--cor5);
+    height: 60px;
+    margin: 10px 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+#menu {
+    display: flex;  
+}
+
+#logo-link {
+    /* margin: 0px 10px; */
+    transform: translateY(4%);
+}
+
+.links-menu {
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-comum);
+    font-size: 1rem;
+    font-weight: 530;
+    padding: 20px;
+}
+
+
+.links-menu:hover {
+    background-color: var(--cor3);
+    padding: 20px;
+    transition-duration: .5s;
+}
+
+.links-menu:focus {
+    background-color: var(--cor3);
+}
+
+#dropdown {
+    display: none;
+    list-style: none;
+    letter-spacing: normal;
+    background-color: #3F6473;
+    position: absolute;
+    padding: 10px;
+    margin-top: 19px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+}
+
+.lista-dropdown {
+    margin: 2px;
+    padding: 0.3rem;
+    text-indent: 9px;
+    border-bottom: 1px solid #e5f6f785;
+}
+
+.links-dropdown {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+
+main {
+    color: #ffffff;
+}
+
+/* #principal {
+    background-image: url('../imagens/piscina-fundo.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+} */
+
+.artigo-principal {
+    background-color: var(--cor5);
+    padding: 10px;;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+}
