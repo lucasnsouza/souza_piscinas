@@ -96,6 +96,7 @@
         position: relative;
         text-align: center;
         flex-direction: column;
+        border-bottom: solid 1px var(--cor3);
     }
 
     .artigo-principal {
@@ -110,6 +111,12 @@
     } */
 
     #artigo-segundo {
+        color: black;
         background-color: var(--cor1);
+    }
+
+    #artigo-segundo > h1 {
+        color: var(--cor3);
+        margin: 5px;
     }
 }
