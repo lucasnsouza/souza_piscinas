@@ -45,7 +45,7 @@ header {
 }
 
 #logo-link {
-    /* margin: 0px 10px; */
+    margin: 0px 10px;
     transform: translateY(4%);
 }
 
@@ -69,6 +69,10 @@ header {
     background-color: var(--cor3);
 }
 
+/* .abrir-lista-dropdown.ative {
+    position: relative;
+} */
+
 #dropdown {
     display: none;
     list-style: none;
@@ -82,7 +86,7 @@ header {
 
 .lista-dropdown {
     margin: 2px;
-    padding: 0.3rem;
+    padding: 0.3rem; 
     text-indent: 9px;
     border-bottom: 1px solid #e5f6f785;
 }
