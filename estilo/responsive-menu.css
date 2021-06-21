@@ -1,3 +1,21 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+/*variáveis em CSS*/
+:root {
+    --cor0: #45C6ED;
+    --cor1: #f1fcf6;
+    --cor2: #62B7D9;
+    --cor3: #3F6473;
+    --cor4: #e5f6f7;
+    --cor5: #3097BF;
+
+    --fonte-padrao: 'Nunito Sans', Arial, Helvetica, sans-serif;
+
+    --fonte-comum: Arial, Helvetica, sans-serif;
+}
+
 #btn-mobile {
     display: none;
 }
@@ -5,13 +23,15 @@
 @media ( max-width: 860px) {
     header {
         margin-top: 0px;
+        margin-bottom: 0px;
+        border-bottom: solid 1px var(--cor3);
     }
     
     #menu {
         display: flex;
         flex-direction: column;
         position: absolute;
-        width: 55%;
+        width: 70%;
         height: calc(100vh - 60px);
         top: 60px;
         right: 0px;
@@ -25,8 +45,9 @@
         display: block;
         margin-left: auto;
         border: none;
-        transform: translateY(2.1px);
+        transform: translateY(-5px);
         cursor: pointer;
+        height: 55px;
     }
     #nav.active #menu {
         visibility: visible;
@@ -35,7 +56,7 @@
 
     .lista-menu {
         padding: 1rem;
-        /* height: 20px; */
+        height: 20px;
         border-bottom: 1px solid #e5f6f785;
     }
 
@@ -83,5 +104,12 @@
 
     .artigo-principal > p {
         text-align: justify;
+    }
+    /* .foto-capa {
+        size: 90px;
+    } */
+
+    #artigo-segundo {
+        background-color: var(--cor1);
     }
 }
