@@ -38,26 +38,26 @@ linkDropdown.addEventListener('click', function abrirDropdown () {
 
 
 //scrip para slideshow
-var slideIndex = 1;
-showSlides(slideIndex);
+let indiceDoSlide = 1;
+showSlides(indiceDoSlide);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function mudarSlides(n) {
+  showSlides(indiceDoSlide += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function descobrirSlideAtual(n) {
+  showSlides(indiceDoSlide = n);
 }
 
 function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("slides");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+  let i;
+  const slides = document.getElementsByClassName("slides");
+  if (n > slides.length) {indiceDoSlide = 1}
+  if (n < 1) {indiceDoSlide = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
-  slides[slideIndex-1].style.display = "block";
+  slides[indiceDoSlide-1].style.display = "block";
 }
