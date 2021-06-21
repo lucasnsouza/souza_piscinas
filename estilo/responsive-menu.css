@@ -119,4 +119,15 @@
         color: var(--cor3);
         margin: 5px;
     }
+
+    .slides {
+        background-color: var(--cor3);
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+        top: 85%;
+        width: auto;
+        margin-top: -25px;
+    }
 }
