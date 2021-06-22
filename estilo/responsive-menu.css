@@ -126,9 +126,9 @@
 
     /* Next & previous buttons */
     .prev, .next {
-        top: 85%;
+        top: 92%;
         width: auto;
-        margin-top: -25px;
+        /* margin-top: -25px; */
     }
 
     .serviço {
