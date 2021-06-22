@@ -182,6 +182,11 @@ main {
     /* top: 0; */
   }
 
+  .links-slide {
+      text-decoration: none;
+      color: var(--cor1);
+  }
+
 footer {
     background-color: var(--cor5);
     color: white;
