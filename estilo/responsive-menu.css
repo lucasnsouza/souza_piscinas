@@ -126,7 +126,7 @@
 
     /* Next & previous buttons */
     .prev, .next {
-        top: 92%;
+        top: 80%;
         width: auto;
         /* margin-top: -25px; */
     }

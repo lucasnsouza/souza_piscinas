@@ -166,7 +166,7 @@ main {
     color: var(--cor1);
     background-color: var(--cor3);
     font-size: 15px;
-    padding: 8px 12px;
+    padding: 3px 12px;
     position: absolute;
     width: 98.2%;
     text-align: center;
