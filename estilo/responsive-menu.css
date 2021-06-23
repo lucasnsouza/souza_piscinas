@@ -128,7 +128,7 @@
     .prev, .next {
         top: 0;
         width: auto;
-        top: 100%;
+        top: 50%;
         margin-top: -25px;
     }
 
