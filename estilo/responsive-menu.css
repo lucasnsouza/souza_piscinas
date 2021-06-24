@@ -45,9 +45,10 @@
         display: block;
         margin-left: auto;
         border: none;
-        transform: translateY(-5px);
+        /* transform: translateY(-5px); */
         cursor: pointer;
-        height: 55px;
+        margin-right: 8px;
+        background-color:transparent;
     }
     #nav.active #menu {
         visibility: visible;
@@ -84,55 +85,5 @@
 
     .abrir-lista-dropdown.ative {
         height: 150px;
-    }
-
-    main {
-        align-self: center;
-        width: 100%;
-    }
-
-    #principal {
-        display: flex;
-        position: relative;
-        text-align: center;
-        flex-direction: column;
-        border-bottom: solid 1px var(--cor3);
-    }
-
-    .artigo-principal {
-        position: absolute;
-    }
-
-    .artigo-principal > p {
-        text-align: justify;
-    }
-    /* .foto-capa {
-        size: 90px;
-    } */
-
-    #artigo-segundo {
-        color: black;
-        background-color: var(--cor1);
-    }
-
-    #artigo-segundo > h1 {
-        color: var(--cor3);
-        margin: 5px;
-    }
-
-    .slides {
-        background-color: var(--cor3);
-    }
-
-    /* Next & previous buttons */
-    .prev, .next {
-        top: 0;
-        width: auto;
-        top: 60%;
-        margin-top: -22px;
-    }
-
-    .serviço {
-        width: 95%;
     }
 }

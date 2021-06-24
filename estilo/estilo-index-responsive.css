@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+/*variáveis em CSS*/
+:root {
+    --cor0: #45C6ED;
+    --cor1: #f1fcf6;
+    --cor2: #62B7D9;
+    --cor3: #3F6473;
+    --cor4: #e5f6f7;
+    --cor5: #3097BF;
+
+    --fonte-padrao: 'Nunito Sans', Arial, Helvetica, sans-serif;
+
+    --fonte-comum: Arial, Helvetica, sans-serif;
+}
+
+@media ( max-width: 860px) {
+    main {
+        align-self: center;
+        width: 100%;
+    }
+
+    #principal {
+        display: flex;
+        position: relative;
+        text-align: center;
+        flex-direction: column;
+        border-bottom: solid 1px var(--cor3);
+    }
+
+    .artigo-principal {
+        position: absolute;
+    }
+
+    .artigo-principal > p {
+        text-align: justify;
+    }
+    /* .foto-capa {
+        size: 90px;
+    } */
+
+    #artigo-segundo {
+        color: black;
+        background-color: var(--cor1);
+    }
+
+    #artigo-segundo > h1 {
+        color: var(--cor3);
+        margin: 5px;
+    }
+
+    .slides {
+        background-color: var(--cor3);
+    }
+
+    /* Next & previous buttons */
+    .prev, .next {
+        top: 0;
+        width: auto;
+        top: 60%;
+        margin-top: -22px;
+    }
+
+    .serviço {
+        width: 95%;
+    }
+}
