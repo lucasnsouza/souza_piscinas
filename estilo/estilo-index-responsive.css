@@ -32,10 +32,11 @@
 
     .artigo-principal {
         position: absolute;
+        width: 95.9%;
     }
 
     .artigo-principal > p {
-        text-align: justify;
+        text-align: center;
     }
     /* .foto-capa {
         size: 90px;

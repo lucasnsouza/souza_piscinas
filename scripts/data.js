@@ -40,14 +40,15 @@ console.log(estacaoDoAno)
 
 //função para devolver um texto espcífico para cada estação
 function mensagemDaEstacao () {
+    const mensagemEstacao = document.querySelector('#mensagem-estacao');
     if (estacaoDoAno == 'Inverno') {
-        console.log('frio');
+        mensagemEstacao.innerHTML = 'Mesmo no Inverno sua piscina precisa de cuidados. Veja dicas para manter a sua piscina em ordem e porque mesmo sem uso ela ainda precisa de atenção.';
     } else if (estacaoDoAno == 'Primavera') {
-        console.log('flores')
+        mensagemEstacao.innerHTML = 'Mesmo no Inverno sua piscina precisa de cuidados.';
     } else if (estacaoDoAno == 'Verão') {
-        console.log('calor')
+        mensagemEstacao.innerHTML = 'O Verão chegou! Saiba como aproveitar ao máximo a sua piscina.';
     } else if (estacaoDoAno == 'Outono') {
-        console.log('chuva')
+        mensagemEstacao.innerHTML = 'Mesmo no Inverno sua piscina precisa de cuidados.';
     }
 }
 
