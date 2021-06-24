@@ -17,9 +17,17 @@
 }
 
 @media ( max-width: 860px) {
+    body {
+        font-family: var(--fonte-padrao);
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor4);
+        width: 100%;    
+    }
+
     main {
         align-self: center;
-        width: 100%;
+        width: auto;
     }
 
     #principal {
@@ -32,7 +40,7 @@
 
     .artigo-principal {
         position: absolute;
-        width: 95.9%;
+        width: auto;
     }
 
     .artigo-principal > p {
@@ -65,6 +73,6 @@
     }
 
     .serviço {
-        width: 95%;
+        width: 100%;
     }
 }
