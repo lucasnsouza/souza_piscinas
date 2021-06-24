@@ -65,7 +65,7 @@
     }
 
     /* .abrir-dropdown::before {
-        content: '\2335 ';
+        content: url('../imagens/outline_home_white_24dp.png');
     } */
 
     .links-menu:hover {
@@ -128,8 +128,8 @@
     .prev, .next {
         top: 0;
         width: auto;
-        top: 50%;
-        margin-top: -25px;
+        top: 60%;
+        margin-top: -22px;
     }
 
     .serviço {
