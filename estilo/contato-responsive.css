@@ -46,6 +46,10 @@
         margin-right: 0;
     }
 
+    #quem-somos > p {
+        text-align: justify;
+    }
+
     footer {
         margin-top: 25px;
     }
