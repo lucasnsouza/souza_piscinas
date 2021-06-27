@@ -25,7 +25,6 @@
 body {
     font-family: var(--fonte-padrao);
     display: flex;
-    flex-direction: row;
     background-color: var(--cor4);
 
 }
