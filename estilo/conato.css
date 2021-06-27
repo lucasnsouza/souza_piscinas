@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap');
+
+/*variáveis em CSS*/
+:root {
+    --cor0: #45C6ED;
+    --cor1: #f1fcf6;
+    --cor2: #62B7D9;
+    --cor3: #223a44;
+    --cor4: #e5f6f7;
+    --cor5: #3097BF;
+
+    --fonte-padrao: 'Nunito Sans', Arial, Helvetica, sans-serif;
+
+    --fonte-comum: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-article {
+    height: 400px;
+    width: 500px;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 1em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+}
+
+#quem-somos {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    margin-right: 25px;
+}
+
+#quem-somos > h3 {
+    margin: 10px;
+}
+
+#quem-somos > p,ul {
+    text-indent: 20px;
+}
+
+#quem-somos > li {
+    margin-top: 10px;
+}
+
+#contato {
+    background-color: white;
+    color: var(--cor3);
+}
+
+#logo-whatsapp {
+    height: 48px;
+    width: 48px;
+}
+
+footer {
+    background-color: var(--cor5);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 45px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor1);
+}

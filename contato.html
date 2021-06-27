@@ -7,6 +7,8 @@
     <title>CONTATO</title>
     <link rel="stylesheet" href="./estilo/estilo-menu.css">
     <link rel="stylesheet" href="./estilo/responsive-menu.css">
+    <link rel="stylesheet" href="./estilo/conato.css">
+    <link rel="stylesheet" href="./estilo/contato-responsive.css">
 </head>
 <body>
     <header>
@@ -28,21 +30,38 @@
         </nav>
     </header>
     <main>
-        <article>
-            <h1>
-                Conheça nosso trabalho
-            </h1>
-            <p>
-                Atuando em Bauru e região há cerca de três anos. Trabalhamos com a manutenção regular de piscinas. Também oferecemos serviços adicionais como trocas de areia e tratamento de choque.
-            </p>
-        </article>
-        <article>
-            <h1>Contato</h1>
-            <img src="./imagens/outline_contact_phone_white_24dp.png" alt="telefone">
+        <article class="container-article" id="quem-somos">
+            <h1>Conheça nosso trabalho</h1>
 
-            <img src="./imagens/whatsapp-5662090_640.png" alt="">
+            <h3>Sobre nós</h3>
+
+            <p>Atendemos em Bauru e Duartina há cerca de três anos.</p>
+
+            <h3>Serviços</h3>
+
+            <ul>
+                <li class="">Manutenção semanal</li>
+                <li class="">Tretamento de choque</li>
+                <li class="">Trocas de areia</li>
+            </ul>
+    
+        </article>
+        <article class="container-article" id="contato">
+            <h1>Contato</h1>
+
+            <p>Entre em contato para descobrir como podemos ajudar você.</p>
+
+            <ul>
+                <li><img src="./imagens/outline_contact_phone_white_24dp.png" alt="telefone"></li>
+                <li><img src="./imagens/whatsapp-5662090_640.png" alt="logo-whatsapp" id="logo-whatsapp"></li>
+            </ul>     
         </article>
     </main>
+
+    <footer>
+        <h5>Site criado por <a href="https://github.com/lucasnsouza" target="_blank">Lucas Souza</a> - 2021</h5>
+    </footer>
+
     <script src="./scripts/script.js"></script>
 </body>
 </html>
