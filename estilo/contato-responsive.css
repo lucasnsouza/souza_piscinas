@@ -23,9 +23,30 @@
 }
 
 @media ( max-width: 860px) {
+    body {
+        width: auto;
+    }
+
     main {
         display: flex;
         flex-direction: column;
         margin: auto;
+        justify-items: center;
+    }
+
+    .container-article {
+        height: 300px;
+        width: 400px;
+        border-radius: 8px;
+        margin-top: 25px;
+        padding: 1em;
+    }
+
+    #quem-somos {
+        margin-right: 0;
+    }
+
+    footer {
+        margin-top: 25px;
     }
 }

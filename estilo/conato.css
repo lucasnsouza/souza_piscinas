@@ -54,7 +54,7 @@ main {
     margin: 10px;
 }
 
-#quem-somos > p,ul {
+#quem-somos > p, .lista-contato {
     text-indent: 20px;
 }
 
