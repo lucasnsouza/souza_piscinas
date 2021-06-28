@@ -50,6 +50,7 @@ header {
 }
 
 .links-menu {
+    position: relative;
     color: white;
     text-decoration: none;
     font-family: var(--fonte-comum);
@@ -73,8 +74,8 @@ header {
     position: relative;
 } */
 
-#dropdown {
-    display: none;
+.dropdown {
+    visibility: hidden;
     list-style: none;
     letter-spacing: normal;
     background-color: #3F6473;
