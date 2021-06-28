@@ -26,9 +26,23 @@ menuMobile.addEventListener('click', function fecharMenu (evento) {
 const linkDropdown = document.querySelector('.abrir-dropdown');
 
 linkDropdown.addEventListener('click', function abrirDropdown () {
+    const tamanhoDaJanela = window.innerWidth;
+    const tamanhoDaTela = screen.width;
+
+    const menuDropdown = document.querySelector('.dropdown');
+    const listaDropdown = document.querySelector('.dropdown-responsive');
+
+    if (tamanhoDaJanela < 861 || tamanhoDaJanela < 861) {
+      listaDropdown.classList.toggle('ative');
+    } else {
+      if (menuDropdown.style.visibility = 'hidden') {
+        menuDropdown.style.visibility = 'visible';
+      } else {
+        menuDropdown.style.visibility = 'hidden';
+      }
+    }
+
     //abre e fecha dropdown no menu mobile
-    const menuDropdown = document.querySelector('#dropdown');
-    menuDropdown.classList.toggle('ative');
 
     //aumenta ou diminui height para o dropdown
     const responsiveDropdown = document.querySelector('.abrir-lista-dropdown');

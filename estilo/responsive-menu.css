@@ -76,8 +76,12 @@
     .links-menu:focus {
         background-color: transparent;
     }
+
+    .dropdown {
+        display: none;
+    }
     
-    #dropdown.ative {
+    .dropdown-responsive.ative {
         display: block;
         margin-top: 1px;
         box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
