@@ -79,6 +79,7 @@
 
     .dropdown {
         display: none;
+        visibility: visible;
     }
     
     .dropdown-responsive.ative {

@@ -32,24 +32,30 @@ linkDropdown.addEventListener('click', function abrirDropdown () {
     const menuDropdown = document.querySelector('.dropdown');
     const listaDropdown = document.querySelector('.dropdown-responsive');
 
-    if (tamanhoDaJanela < 861 || tamanhoDaJanela < 861) {
+    if (tamanhoDaJanela < 861 || tamanhoDaTela < 861) {
+       //abre e fecha dropdown no menu mobile
       listaDropdown.classList.toggle('ative');
     } else {
       if (menuDropdown.style.visibility = 'hidden') {
         menuDropdown.style.visibility = 'visible';
-      } else {
-        menuDropdown.style.visibility = 'hidden';
-      }
+      } else if (menuDropdown.style.visibility = 'visible') {
+        fecharDropdown();
+        console.log('aqui')
+      }  
     }
-
-    //abre e fecha dropdown no menu mobile
-
     //aumenta ou diminui height para o dropdown
     const responsiveDropdown = document.querySelector('.abrir-lista-dropdown');
     responsiveDropdown.classList.toggle('ative');
 
 })
 
+const fecharDropdown = () => {
+  const menuDropdown = document.querySelector('.dropdown');
+
+  if (menuDropdown.style.visibility = 'visible') {
+    menuDropdown.style.visibility = 'hidden';
+  }
+}
 
 //scrip para slideshow
 let indiceDoSlide = 1;
