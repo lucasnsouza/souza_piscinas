@@ -26,11 +26,16 @@ body {
     font-family: var(--fonte-padrao);
     display: flex;
     background-color: var(--cor4);
+    align-items: center;
+}
 
+header {
+  width: 100%;
 }
 
 main {
     color: #ffffff;
+    width: 1000px;
 }
 
 .artigo-principal {
@@ -56,7 +61,7 @@ main {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 240%;
+    top: 183%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -71,7 +76,7 @@ main {
   
   /* Position the "next button" to the right */
   .next {
-    right: 0;
+    right: 174px;
     border-radius: 3px 0 0 3px;
   }
 
@@ -86,7 +91,7 @@ main {
     background-color: var(--cor3);
     font-size: 15px;
     padding: 3px 12px;
-    position: absolute;
+    
     width: 98.2%;
     text-align: center;
   }
@@ -118,6 +123,7 @@ footer {
     color: white;
     text-align: center;
     padding: 5px;
+    width: 98vw;
 }
 
 footer a {
