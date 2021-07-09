@@ -52,16 +52,22 @@
 
     #artigo-segundo {
         color: black;
-        background-color: var(--cor1);
+        background-color: var(--cor5);
+        border-bottom: solid 1px var(--cor3);
     }
 
     #artigo-segundo > h1 {
-        color: var(--cor3);
+        color: white;
         margin: 5px;
+        border-bottom: transparent;
+    }
+
+    .numero-slide {
+        border-top: solid 1px var(--cor3);
     }
 
     .slides {
-        background-color: var(--cor3);
+        background-color: var(--cor5);
     }
 
     /* Next & previous buttons */
