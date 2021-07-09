@@ -36,11 +36,28 @@ header {
 main {
     color: #ffffff;
     width: 1000px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+#principal {
+  background-color: var(--cor1);
+  position: relative;
 }
 
 .artigo-principal {
     background-color: var(--cor5);
     padding: 10px;
+    position: absolute;
+    width: fit-content;
+    top: 0;
+}
+
+#artigo-segundo {
+  background-color: var(--cor1);
+}
+
+#artigo-segundo > h1 {
+  color: var(--cor3);
 }
 
 /* * {box-sizing:border-box} */
@@ -61,7 +78,7 @@ main {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 183%;
+    top: 170%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -112,7 +129,7 @@ main {
 #artigo-terceiro {
     background-color: var(--cor1);
     color: var(--cor3);
-    margin-top: 20px;
+    margin-top: 8px;
     padding: 1em;
 }  
 
