@@ -72,6 +72,10 @@
         margin-top: -22px;
     }
 
+    .next {
+        right: 0;
+    }
+
     .serviço {
        width: 96.42%;
     }
