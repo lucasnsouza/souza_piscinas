@@ -16,7 +16,7 @@
     --fonte-comum: Arial, Helvetica, sans-serif;
 }
 
-@media ( max-width: 860px) {
+@media ( max-width: 950px) {
     body {
         font-family: var(--fonte-padrao);
         display: flex;
