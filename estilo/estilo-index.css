@@ -35,7 +35,7 @@ header {
 
 main {
     color: #ffffff;
-    width: 1000px;
+    width: 900px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
 }
 
@@ -80,7 +80,7 @@ main {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 170%;
+    top: 155%;
     width: auto;
     margin-top: -22px;
     padding: 16px;
@@ -95,7 +95,8 @@ main {
   
   /* Position the "next button" to the right */
   .next {
-    right: 174px;
+    position: absolute;
+    right: 224px;
     border-radius: 3px 0 0 3px;
   }
 
