@@ -28,6 +28,7 @@
     main {
         align-self: center;
         width: auto;
+        background-color: white;
     }
 
     #principal {
@@ -60,6 +61,30 @@
         color: white;
         margin: 5px;
         border-bottom: transparent;
+    }
+
+    #artigo-terceiro {
+        color: white;
+        background-color: var(--cor3);
+        text-align: center;
+    }
+
+    #artigo-terceiro > h1 {
+        margin-bottom: 8px;
+    }
+
+    .extras{
+        margin: 5px;
+    }
+
+    .extras > a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .links-extras:hover {
+        color: var(--cor5);
+        animation: ease-in .02s;
     }
 
     .numero-slide {
