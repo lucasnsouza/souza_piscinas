@@ -59,7 +59,7 @@
 
     #artigo-segundo > h1 {
         color: white;
-        margin: 5px;
+        padding: 5px;
         border-bottom: transparent;
     }
 
@@ -67,6 +67,7 @@
         color: white;
         background-color: var(--cor3);
         text-align: center;
+        margin-top: 0;
     }
 
     #artigo-terceiro > h1 {
