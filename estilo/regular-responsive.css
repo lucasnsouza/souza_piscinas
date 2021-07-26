@@ -37,19 +37,18 @@
     #artigo-segundo {
         margin: auto;
         width:auto;
-        
         padding: 10px;
         position: relative;
-        background-color: #1576c0;
+        background-color: var(--cor3);
         color: white;
     }
 
     .numero-slide {
-        border-top: solid 1px #1576c0;
+        border-top: solid 1px var(--cor3);
     }
 
     .slides {
-        background-color: #1576c0;
+        background-color: var(--cor3);
     }
 
     /* Next & previous buttons */
@@ -66,5 +65,14 @@
 
     .serviço {
         padding: 0;
+    }
+
+    #lista-serviços {
+        margin-top: 15px;
+    }
+
+    .itens-lista-serviços {
+        list-style: disc;
+        list-style-position: inside; /*coloca a lista dentro da section*/
     }
 }
