@@ -37,7 +37,7 @@
     #artigo-segundo {
         margin: auto;
         width:auto;
-        padding: 10px;
+        padding-top: 18px;
         position: relative;
         background-color: var(--cor3);
         color: white;
@@ -48,7 +48,8 @@
     }
 
     .slides {
-        background-color: var(--cor3);
+
+        background-color: var(--cor1);
     }
 
     /* Next & previous buttons */
@@ -60,7 +61,7 @@
     }
 
     .next {
-        right: 10px;
+        right: 0;
     }
 
     .serviço {
