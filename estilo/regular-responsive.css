@@ -30,6 +30,7 @@
     main {
         display: flex;
         flex-direction: column;
+        width: auto;
         margin: auto;
         justify-items: center;
     }
@@ -74,5 +75,9 @@
     .itens-lista-serviços {
         list-style: disc;
         list-style-position: inside; /*coloca a lista dentro da section*/
+    }
+
+    aside {
+        width: auto;
     }
 }
