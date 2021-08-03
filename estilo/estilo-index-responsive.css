@@ -46,7 +46,7 @@
     }
 
     .artigo-principal > p {
-        text-align: center;
+        text-align: justify;
     }
     /* .foto-capa {
         size: 90px;
@@ -58,10 +58,17 @@
         border-bottom: solid 1px var(--cor3);
     }
 
-    #artigo-segundo > h1 {
+    #artigo-segundo > h1{
         color: white;
         padding: 5px;
         border-bottom: transparent;
+    }
+
+    #artigo-segundo > p {
+        color: white;
+        padding: 11px;
+        border-bottom: transparent;
+        line-height: 22px;
     }
 
     #artigo-terceiro {
