@@ -76,10 +76,11 @@
         background-color: var(--cor3);
         text-align: center;
         margin-top: 0;
+        flex-direction: column;
     }
 
-    #artigo-terceiro > h1 {
-        margin-bottom: 8px;
+    .conteudo-extra:last-child {
+        margin-top: 2px;
     }
 
     .extras{

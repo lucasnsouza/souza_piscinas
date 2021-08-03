@@ -143,12 +143,24 @@ main {
 #artigo-terceiro {
     background-color: var(--cor3);
     color: white;
-    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }  
+
+.conteudo-extra {
+  height: 130px;
+  background-color: var(--cor3);
+  margin-top: 20px;
+}
 
 .links-extras {
   color: white;
   text-decoration: none;
+}
+
+.links-extras:hover {
+  text-decoration: underline;
 }
 
 footer {
