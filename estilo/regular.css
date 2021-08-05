@@ -61,6 +61,7 @@ main {
 /* * {box-sizing:border-box} */
 #artigo-segundo {
     background-color: var(--cor3);
+    position: relative;
 }
 
 /* Slideshow container */
@@ -79,7 +80,7 @@ main {
   .prev, .next {
       cursor: pointer;
       position: absolute;
-      top: 70%;
+      top: 50%;
       width: auto;
       margin-top: -22px;
       padding: 16px;
@@ -95,7 +96,7 @@ main {
     /* Position the "next button" to the right */
     .next {
       position: absolute;
-      right: 224px;
+      right: 0px;
       border-radius: 3px 0 0 3px;
     }
   

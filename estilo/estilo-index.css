@@ -69,8 +69,12 @@ main {
   padding-bottom: 9px;
   border-bottom: solid 1px var(--cor3);
 }
-/* * {box-sizing:border-box} */
 
+/* * {box-sizing:border-box} */
+#artigo-slide {
+  background-color: var(--cor5);
+  position: relative;
+}
 /* Slideshow container */
 .slideshow {
   max-width: 1000px;
@@ -91,9 +95,9 @@ main {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 155%;
+    top: 50%;
     width: auto;
-    margin-top: -22px;
+    margin-top: -45px;
     padding: 16px;
     color: var(--cor1);
     background-color: var(--cor5);
@@ -107,7 +111,7 @@ main {
   /* Position the "next button" to the right */
   .next {
     position: absolute;
-    right: 224px;
+    right: 0px;
     border-radius: 3px 0 0 3px;
   }
 
