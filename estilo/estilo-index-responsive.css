@@ -52,12 +52,6 @@
         size: 90px;
     } */
 
-    #artigo-segundo {
-        color: black;
-        background-color: var(--cor5);
-        border-bottom: solid 1px var(--cor3);
-    }
-
     #artigo-segundo > h1{
         color: white;
         padding: 5px;
@@ -69,6 +63,15 @@
         padding: 11px;
         border-bottom: transparent;
         line-height: 22px;
+    }
+
+    #artigo-slide {
+        margin: auto;
+        width:auto;
+        padding-top: 2px;
+        position: relative;
+        background-color: var(--cor3);
+        color: white;
     }
 
     #artigo-terceiro {
@@ -107,10 +110,10 @@
 
     /* Next & previous buttons */
     .prev, .next {
-        top: 0;
+        position: absolute;
+        top: 48%;
         width: auto;
-        top: 65%;
-        margin-top: -22px;
+        padding: 10px;
     }
 
     .next {
