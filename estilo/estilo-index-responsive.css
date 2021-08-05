@@ -111,7 +111,7 @@
     /* Next & previous buttons */
     .prev, .next {
         position: absolute;
-        top: 48%;
+        top: 55%;
         width: auto;
         padding: 10px;
     }
