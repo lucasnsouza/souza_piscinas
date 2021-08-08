@@ -42,23 +42,32 @@ main {
 }
 
 #principal {
-    margin-top: 96px;
-    position: relative;
     background-color: var(--cor3);
 }
 
 #artigo-principal {
     background-color: var(--cor5);
     padding: 10px;
-    position: absolute;
     width: fit-content;
-    top: -96px;
 }
 
 .container-article {
     background-color: var(--cor5);
     padding: 1em;
     box-shadow: 2px 2px 2px rgba(99, 62, 62, 0.281);
+}
+
+.lista-piscineiro {
+    margin-top: 10px;
+}
+
+.lista-produtos {
+    margin-top: 10px;
+}
+
+.lista-produtos > p {
+    text-indent: 5px;
+    margin-top: 5px;
 }
 
 footer {
