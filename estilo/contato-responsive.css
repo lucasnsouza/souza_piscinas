@@ -24,33 +24,30 @@
 
 @media ( max-width: 860px) {
     body {
-        width: auto;
+        font-family: var(--fonte-padrao);
+        display: flex;
+        flex-direction: column;
+        background-color: var(--cor4);
+        width: 100%; 
+        height: 100%;  
     }
 
     main {
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        justify-items: center;
+        align-self: center;
+        width: auto;
+        background-color: white;
+    }
+    
+    #artigo-principal {
+        border-bottom: solid 6px var(--cor3);
     }
 
     .container-article {
         height: 260px;
-        width: 300px;
-        border-radius: 8px;
-        margin-top: 25px;
         padding: 1em;
-    }
-
-    #quem-somos {
-        margin-right: 0;
     }
 
     #quem-somos > p {
         text-align: justify;
-    }
-
-    footer {
-        margin-top: 25px;
     }
 }
