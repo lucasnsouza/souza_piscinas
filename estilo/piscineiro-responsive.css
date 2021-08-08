@@ -42,4 +42,7 @@
         border-bottom: solid 2px var(--cor3);
     }
 
+    aside {
+        width: auto;
+    }
 }
