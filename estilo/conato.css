@@ -79,8 +79,8 @@ main {
 }
 
 #contato {
-    background-color: white;
-    color: var(--cor3);
+    background-color: var(--cor3);
+    color: white;
 }
 
 #logo-whatsapp {
