@@ -25,6 +25,7 @@
 body {
     font-family: var(--fonte-padrao);
     display: flex;
+    flex-direction: column;
     background-color: #F8F8F7;
     align-items: center;
 }
@@ -34,22 +35,23 @@ header {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
     color: #ffffff;
     width: 900px;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.267);
+    justify-content: center;
 }
 
 #principal {
   background-color: var(--cor5);
-  position: relative;
+  height: 540px;
 }
 
 #artigo-principal {
-    background-color: var(--cor5);
-    padding: 10px;
-    position: absolute;
-    width: fit-content;
-    top: 0;
+  background-color: var(--cor5);
+  padding: 10px;
+  width: fit-content;
 }
 
 #artigo-segundo {
