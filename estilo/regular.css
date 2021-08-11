@@ -134,6 +134,10 @@ main {
         color: white;
         padding: 20px;
     }
+
+    #artigo-terceiro > h2 {
+        margin-bottom: 10px;
+    }
   
     aside {
         background-color: var(--cor3);
