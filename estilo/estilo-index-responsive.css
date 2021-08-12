@@ -38,6 +38,7 @@
         text-align: center;
         flex-direction: column;
         border-bottom: solid 1px var(--cor3);
+        height: auto;
     }
 
     .artigo-principal {
