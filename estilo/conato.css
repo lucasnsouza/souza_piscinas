@@ -91,6 +91,23 @@ main {
     margin: 10px;
 }
 
+#lista-contato > li{
+    position: relative;
+    
+}
+
+.links-do-contato {
+    text-indent: 10px;
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    top: 25%;
+}
+
+.links-do-contato:hover {
+    text-decoration: underline;
+}
+
 footer {
     background-color: var(--cor5);
     color: white;
