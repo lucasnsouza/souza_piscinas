@@ -129,6 +129,17 @@ main {
         text-decoration: none;
     }
 
+    #artigo-terceiro {
+        background-color: var(--cor5);
+        color: white;
+        padding: 20px;
+    }
+
+    #artigo-terceiro > h2 {
+        margin-bottom: 10px;
+    }
+  
+
     .artigo-produtos {
         background-color: var(--cor5);
         color: white;
