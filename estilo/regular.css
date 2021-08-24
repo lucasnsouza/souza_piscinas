@@ -129,13 +129,18 @@ main {
         text-decoration: none;
     }
 
-    #artigo-terceiro {
+    .artigo-produtos {
         background-color: var(--cor5);
         color: white;
         padding: 20px;
+        border-bottom: solid 5px var(--cor3);
     }
 
-    #artigo-terceiro > h2 {
+    .artigo-produtos:last-child {
+       border-bottom: none;
+    }
+
+    .artigo-produtos > h2 {
         margin-bottom: 10px;
     }
   
