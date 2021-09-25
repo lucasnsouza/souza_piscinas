@@ -10,13 +10,6 @@ btnMobile.addEventListener('click', function abrirMenuMobile () {
     navHtml.classList.toggle('active'); //alterna entre ativar ou destivar a classe nas css
 })
 
-// //javascript para fechar menu mobile clicando fora dele
-// menuMobile.addEventListener('click', function fecharMenu (evento) {
-//     if (evento.target.id == 'main') {
-//         console.log('clicou');
-//     }
-// })
-
 //javascript para dropdown
 const linkDropdown = document.querySelector('.abrir-dropdown');
 
