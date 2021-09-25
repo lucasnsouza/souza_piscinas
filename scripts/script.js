@@ -5,6 +5,7 @@ const ondeCliquei = document.querySelector('#main');
 
 const menuMobile = document.querySelector('#menu')
 
+//abre o menu mobile
 btnMobile.addEventListener('click', function abrirMenuMobile () {
     const navHtml = document.querySelector('#nav');
     navHtml.classList.toggle('active'); //alterna entre ativar ou destivar a classe nas css
@@ -23,27 +24,14 @@ linkDropdown.addEventListener('click', function abrirDropdown () {
     if (tamanhoDaJanela < 861 || tamanhoDaTela < 861) {
        //abre e fecha dropdown no menu mobile
       listaDropdown.classList.toggle('ative');
-    } else {
-      if (menuDropdown.style.visibility = 'hidden') {
-        menuDropdown.style.visibility = 'visible';
-      } else if (menuDropdown.style.visibility = 'visible') {
-        fecharDropdown();
-        console.log('aqui')
-      }  
+    } else if (menuDropdown.style.visibility = 'hidden') {
+        menuDropdown.style.visibility = 'visible'; 
     }
     //aumenta ou diminui height para o dropdown
     const responsiveDropdown = document.querySelector('.abrir-lista-dropdown');
     responsiveDropdown.classList.toggle('ative');
 
 })
-
-const fecharDropdown = () => {
-  const menuDropdown = document.querySelector('.dropdown');
-
-  if (menuDropdown.style.visibility = 'visible') {
-    menuDropdown.style.visibility = 'hidden';
-  }
-}
 
 //scrip para slideshow
 let indiceDoSlide = 1;
