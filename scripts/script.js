@@ -1,10 +1,6 @@
 //javascript para botão do menu mobile
 const btnMobile = document.querySelector('#btn-mobile');
 
-const ondeCliquei = document.querySelector('#main');
-
-const menuMobile = document.querySelector('#menu')
-
 //abre o menu mobile
 btnMobile.addEventListener('click', function abrirMenuMobile () {
     const navHtml = document.querySelector('#nav');
