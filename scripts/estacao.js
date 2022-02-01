@@ -101,7 +101,7 @@ switch (mes) {
     case 'janeiro':
         estacaoDoAno = mesesDoAno.janeiro.estacaoDoAno;
         break;
-    case 'fevreiro':
+    case 'fevereiro':
         estacaoDoAno = mesesDoAno.fevereiro.estacaoDoAno;
         break;
     case 'março':
