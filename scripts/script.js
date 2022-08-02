@@ -29,27 +29,59 @@ linkDropdown.addEventListener('click', function abrirDropdown () {
 
 })
 
-//scrip para slideshow
+//array com o caminho das fotos
+const fotos = [
+  {
+    id: 1,
+    descricao: "Manutenção regular",
+    src: "./imagens/peneira.png",
+    alt: "peneira na água",
+    link: "./regular.html"
+  },
+  {
+    id: 2,
+    descricao: "Manutenção extra",
+    src: "./imagens/filtro-e-pecas.png",
+    alt: "filtro e peças",
+    link: "./extra.html"
+  },
+  {
+    id: 3,
+    descricao: "Produtos e equipamentos",
+    src: "./imagens/produtos-equpamentos.png",
+    alt: "produtos",
+    link: "./produtos.html"
+  }
+];
+
+//foreach que vai criar na página as divs que populam o slideshow
+fotos.forEach(foto => {
+  const slideshow = document.querySelector("#slideshow");
+  slideshow.innerHTML += `
+    <div class="slides">
+      <div class="numero-slide">${foto.id} / 3</div>
+        <img src="${foto.src}" alt="${foto.alt}"  style="width: 100%;">
+      <div class="serviço"><a href="${foto.link}" class="links-slide" target="_self">${foto.descricao}</a></div>
+    </div>
+  `;
+});
+
+//script para slideshow
 let indiceDoSlide = 1;
 showSlides(indiceDoSlide);
 
-// Next/previous controls
-function mudarSlides(n) {
-  showSlides(indiceDoSlide += n);
-}
-
-// Thumbnail image controls
-function descobrirSlideAtual(n) {
-  showSlides(indiceDoSlide = n);
-}
-
 function showSlides(n) {
-  let i;
   const slides = document.getElementsByClassName("slides");
+  //console.log(slides);
   if (n > slides.length) {indiceDoSlide = 1}
   if (n < 1) {indiceDoSlide = slides.length}
   for (i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
   }
   slides[indiceDoSlide-1].style.display = "block";
+}
+
+// Next/previous controls
+function mudarSlides(n) {
+  showSlides(indiceDoSlide += n);
 }
